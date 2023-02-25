@@ -40,6 +40,7 @@
     max-width: calc(100% - 7rem);
     padding-left: 1rem;
     margin-top: auto;
+    word-break: break-all;
 }
 
 .ToDoList ul li label button{

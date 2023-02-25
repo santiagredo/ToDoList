@@ -15,33 +15,23 @@ type ToDoType = {
 export let ToDos: ToDoType[] = [
   {
     id: 1,
-    text: 'Sample To Do',
+    text: 'Check source code at: https://github.com/santiagredo/ToDoList',
     completed: false
   },
   {
     id: 2,
-    text: "I'm having such a good time I'm having a ball (Don't stop me now)",
+    text: "Eat some chicken sweat",
     completed: false
   },
   {
     id: 3,
-    text: 'Slice onions',
-    completed: false
-  },
-  {
-    id: 4,
-    text: 'Slice tomatoes',
-    completed: false
-  },
-  {
-    id: 5,
-    text: 'Slice lettuce',
+    text: 'React course from Platzi',
     completed: false
   }
 ];
 
 
-localStorage.clear()
+// localStorage.clear()
 
 function useLocalStorage(itemName: string, initialValue: ToDoType[]){
   const localStorageItem = localStorage.getItem(itemName);

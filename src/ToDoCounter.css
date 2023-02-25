@@ -1,0 +1,13 @@
+@import url('./variables.css');
+
+.ToDoCounter{
+    color: var(--font-color);
+    font-size: var(--font-size-title);
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+}
+
+.ToDoCounter h2, h3{
+    margin: 0;
+}

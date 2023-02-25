@@ -1,0 +1,18 @@
+@import url('./variables.css');
+
+.ToDoSearch{
+    font-size: var(--font-size);
+    background-color: var(--box-background-color);
+    color: var(--font-color);
+    border: none;
+    border-radius: var(--components-border-radius);
+    width: var(--components-width);
+    height: var(--components-height);
+    margin: var(--components-margin);
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+.ToDoSearch::placeholder {
+    color: var(--secondary-font-color);
+}

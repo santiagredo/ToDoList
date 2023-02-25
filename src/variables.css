@@ -1,0 +1,14 @@
+:root{
+    --font-size: 1.2rem;
+    --font-size-title: clamp(3rem, 5vw + 1rem, 6rem);
+    --font-color: #fff;
+    --secondary-font-color: #dadce0;
+    --background-color: #35363a;
+    --box-background-color: #3c4043;
+    --box-background-color-hover: #777d82;
+    --box-background-color-active: #a8b0b6;
+    --components-width: 85%;
+    --components-height: 3rem;
+    --components-margin: 1rem;
+    --components-border-radius: 5px;
+}

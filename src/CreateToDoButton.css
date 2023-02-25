@@ -1,0 +1,29 @@
+@import url('./variables.css');
+@import url('./ToDoFooter.css');
+
+.CreateToDoButton{
+    width: var(--components-width);
+    display: flex;
+    justify-content: end;
+    margin: var(--components-margin);
+    margin-bottom: 4rem;
+}
+
+.CreateToDoButton button{
+    color: var(--font-color);
+    background-color: var(--box-background-color);
+    border-radius: var(--components-border-radius);
+    border: solid var(--font-color);
+    height: 75px;
+    width: 5rem;
+}
+
+.CreateToDoButton button:hover{
+    cursor: pointer;
+    background-color: var(--box-background-color-hover);
+    border: solid ;
+}
+
+.CreateToDoButton button:active{
+    background-color: var(--box-background-color-active);
+}

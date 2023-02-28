@@ -1,15 +1,22 @@
-import React from 'react';
 import './ToDoFooter.css';
-import { CreateToDoButton } from './CreateToDoButton';
+// import { CreateToDoButton } from './CreateToDoButton';
 
-type Props = {
-    onAddNewToDo: (newToDoValue: string) => void;
-};
+// type Props = {
+//     onAddNewToDo: (newToDoValue: string) => void;
+// };
 
-export function ToDoFooter({onAddNewToDo}: Props){
+// export function ToDoFooter({onAddNewToDo}: Props){
+//     return(
+//         <footer className='ToDoFooter'>
+//             <CreateToDoButton onAddNewToDo={onAddNewToDo}/>
+//         </footer>
+//     );
+// };
+
+export function ToDoFooter({children}: any){
     return(
         <footer className='ToDoFooter'>
-            <CreateToDoButton onAddNewToDo={onAddNewToDo}/>
+            {children}
         </footer>
     );
 };

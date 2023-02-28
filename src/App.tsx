@@ -5,6 +5,7 @@ import { ToDoSearch } from './ToDoSearch';
 import { ToDoList } from './ToDoList';
 import { ToDoItem } from './ToDoItem';
 import { ToDoFooter } from './ToDoFooter';
+import { CreateToDoButton } from './CreateToDoButton';
 
 type ToDoType = {
   id: number,
@@ -145,7 +146,11 @@ export function App(){
           ))}
         </ToDoList>
 
-        <ToDoFooter onAddNewToDo={handleAddNewToDo}/>
+        {/* <ToDoFooter onAddNewToDo={handleAddNewToDo}/> */}
+        <ToDoFooter>
+          <CreateToDoButton onAddNewToDo={handleAddNewToDo}>
+          </CreateToDoButton>
+        </ToDoFooter>
       </div>
     </React.Fragment>
   );

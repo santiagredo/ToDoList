@@ -9,7 +9,7 @@ type Props = {
 };
 
 
-export function CreateToDoButton({onAddNewToDo}: Props){
+export function CreateToDoButton({onAddNewToDo}: any){
     const [openModal, setOpenModal] = React.useState(false);
 
     const [newToDoValue, setNewToDoValue] = React.useState('');
